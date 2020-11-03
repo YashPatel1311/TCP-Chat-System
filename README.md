@@ -5,7 +5,7 @@ I have implemented a very basic Chat system in Python. It consists of 2 parts `s
 ## Features
 
 1. This Chat application is Multi-threaded. Every new connection is handeled by new thread. 
-2. Also it buffers messages for those users who are not connected and sends them when they connect.
+2. It buffers messages for those users who are not connected and sends them when they connect.
 3. When a new user is connected, every user is notified about it.
 4. The receiver gets additional information like Sender's username, IP address and time with message.
 
