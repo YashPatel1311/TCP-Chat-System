@@ -12,4 +12,4 @@ I have implemented a very basic Chat system in Python. It consists of 2 parts `s
 Server runs on `127.0.0.1:1234` and the client can run on any IP provided by the user before running the script.
 
 Note that you have to give IP address of client as a command argument in terminal
-`(eg. python client.py 127.0.0.7)
+`(eg. python client.py 127.0.0.7)`
