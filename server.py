@@ -59,7 +59,8 @@ class ForwarderThread(Thread):
                 time.sleep(1)
                 continue
             try:
-                con,addr=users[receiver]
+                con=users[receiver][0]
+                addr=users[sender][1]
                 obj=(timestamp,sender,addr,msg)
                 con.send(pickle.dumps(obj))
                 # If more than 1 msg to same client it cannot process all request at the same speed. Hence msgs might get lost.
